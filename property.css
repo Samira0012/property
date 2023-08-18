@@ -1,0 +1,274 @@
+
+
+header {
+    background-color: #004280;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    background-color: #0054a6;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #003366;
+}
+
+
+footer {
+    background-color: #2c3e50;  /* A dark blue color */
+    color: #ecf0f1;  /* A light grayish-white color for the text */
+    padding: 20px 0;  /* Vertical padding for the footer */
+    text-align: center;  /* Center-aligns the text within the footer */
+}
+
+/* If you have any links in the footer, you can style them like this */
+footer a {
+    color: #3498db;  /* A brighter blue color for links */
+    text-decoration: none;  /* Removes the underline from the links */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Adds underline to the links when hovered */
+}
+h2.contact-us-header {
+    color: #085e98;  /* Deep Sky Blue color */
+}
+.social-media-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links a {
+    color: #333; /* default color, you can change this */
+    margin: 0 10px; /* space between the icons */
+    font-size: 24px; /* icon size */
+    transition: color 0.3s; /* smooth color transition */
+}
+
+.social-media-links a:hover {
+    color: #00BFFF; /* color when hovered, you can change this */
+}
+
+
+
+.image-container {
+    width: 100%;  /* or any other percentage/value that suits your design */
+    margin-right:0.5cm;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the overlay content */
+    color: white; /* Set text color */
+    text-align: center;
+}
+.explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00BFFF; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #0088cc; /* Adjust the hover color as needed */
+}
+.sectionform{
+    display: flex;
+}
+.spanform{
+    display: inline-block;
+}
+.divform{
+    width: 9cm;height: 12cm;border: 5px solid rgba(48, 53, 121, 0.035);background-color: #F6F4EB;
+}
+input[type="text"], textarea {
+    border: none;            /* Remove border */
+    outline: none;           /* Remove focus outline */
+    background-color: #f7f7f7; /* Optional: Add a light gray background for better visibility */
+    padding: 5px;            /* Optional: Add some padding for aesthetics */
+    width: 100%;             /* Optional: Make the input fields full width for a cleaner appearance */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #0088cc;  /* Green background color */
+    color: rgba(4, 22, 41, 0.849);               /* White text color */
+    padding: 10px 20px;         /* Padding for size */
+    border: none;               /* Remove border */
+    cursor: pointer;            /* Cursor style for click indication */
+    border-radius: 4px;         /* Rounded corners */
+}
+
+input[type="submit"]:hover {
+    background-color: #0088cc;  /* Slightly darker green on hover */
+}
+
+.sectionform {
+    position: relative; /* Enables absolute positioning for child elements */
+    width: 100%;
+    height: auto; /* Adjust this if needed */
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Centers the content */
+    color: white; /* Makes text color white for better visibility on image */
+    z-index: 2; /* Ensures the overlay content is above the image */
+    text-align: center; /* Aligns content to the center */
+}
+
+/* Adjust the form styles if needed, for instance: */
+.overlay-content label, 
+.overlay-content select {
+    color: white; /* Sets the text color to white */
+    /* Add other styles as needed */
+}
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    width: 200px; /* Adjust this based on your design preferences */
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #666; /* Gray color for text */
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+form p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+.picklist-container, .language-selector {
+    display: inline-block; /* Keep elements side by side */
+    margin-right: 20px;    /* Spacing between elements */
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    width: 200px; /* Set the width for the dropdown */
+}
+
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.after-picklists {
+    clear: both; /* Clears floating elements, ensuring content after picklists appear below them */
+}
+
+/* If you'd like to float the elements to the right of the container */
+.container-class { /* Replace 'container-class' with the name of the container wrapping these elements if you have one */
+    text-align: right;
+}

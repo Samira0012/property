@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Property Management</title>
+    <link rel="stylesheet" href="property.css">
+    <link rel="icon" href="home-146585_1280.png" type="image/x-icon">
+</head>
+<body>
+    <body>
+        <header>
+            <h1>DC Property Management</h1>
+            <p>Your trusted partner in property management in the DC area.</p>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <div class="social-media-links">
+            <!-- Gmail -->
+            <a href="stoxolieva@gmail.com" target="_blank" title="Send me an email">
+                <i class="fas fa-envelope-square"></i>
+            </a>
+            
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/samira-toxolieva-78b8a8277/" target="_blank" title="Connect with me on LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/monika.stan.121/" target="_blank" title="Follow me on Facebook">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+        
+      <!-- Rent Price Picklist -->
+<div class="picklist-container">
+    <label for="rent-price">Rent Price:</label>
+    <select id="rent-price" name="rent_price">
+        <option value="500-1000">$500 - $1,000</option>
+        <option value="1000-1500">$1,000 - $1,500</option>
+        <option value="1500-2000">$1,500 - $2,000</option>
+        <option value="2000+">$2,000+</option>
+    </select>
+</div>
+
+<!-- Bedroom/Bathroom Picklist -->
+<div class="picklist-container">
+    <label for="bed-bath">Bedroom/Bathroom:</label>
+    <select id="bed-bath" name="bed_bath_config">
+        <option value="1bed1bath">1 Bedroom / 1 Bathroom</option>
+        <option value="2bed1bath">2 Bedrooms / 1 Bathroom</option>
+        <option value="2bed2bath">2 Bedrooms / 2 Bathrooms</option>
+        <option value="3bed2bath">3 Bedrooms / 2 Bathrooms</option>
+        <!-- Add more options as necessary -->
+    </select>
+</div>
+<div class="after-picklists">
+    <!-- Other content after picklists -->
+</div>
+<div class="language-selector">
+    <label for="language">Choose a language:</label>
+    <select id="language" onchange="changeLanguage(this.value)">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="Aze">Azerbaijani</option>
+        <option value="fr">Français</option>
+        <option value="tr">Turkish</option>
+        <!-- Add other languages as necessary -->
+    </select>
+</div>
+<div class="after-selector">
+    <!-- Other content after language selector -->
+</div>
+<div class="after-picklists">
+    <!-- Other content after picklists -->
+</div>
+
+    <section class="sectionform">
+         <!-- Salesforce Form Begins -->
+         <span>
+            <div class="image-container">
+                <img src="https://www.home-designing.com/wp-content/uploads/2020/04/modern-home-on-the-coast.jpg" alt="Home Image" /></div>
+                <div class="overlay-content">
+                    <h1>Welcome to Our DC Property Management</h1>
+                    <p>Discover more about our services and offerings.</p>
+                    <a href="https://www.home-designing.com/wp-content/uploads/2020/04/modern-home-on-the-coast.jpg" class="explore-btn">Explore</a>
+                </div>
+            </span>
+         <span class="panform">
+       <div class="divform">
+        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+            <input type=hidden name="orgid" value="00DHo0000018Q4D">
+            <input type=hidden name="retURL" value="http://">
+            <!-- Debug elements commented out as per the note -->
+            <!-- <input type="hidden" name="debug" value=1> -->
+            <!-- <input type="hidden" name="debugEmail" value="stoxolieva@gmail.com"> -->
+    
+            <h2 class="contact-us-header">Contact Us Regarding Properties</h2>
+            <b><p>If you're interested in any of our properties, please fill out the form below:</p></b>
+            <br>
+            <label for="name"><b>Contact Name</b></label>
+            <input id="name" maxlength="80" name="name" size="20" type="text" /><br>
+    <br>
+            <label for="email"><b>Email</b></label>
+            <input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    <br>
+            <label for="phone"><b>Phone</b></label>
+            <input id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    <br>
+            <label for="subject"><b>Subject</b></label>
+            <input id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+    <br>
+            <label for="description"><b>Description</b></label>
+            <textarea name="description"></textarea><br>
+    <br>
+            <input type="hidden" id="external" name="external" value="1" /><br>
+            <input type="submit" name="submit">
+        </form>
+        <!-- Salesforce Form Ends -->
+    </div>
+</span>
+
+     </section>
+     <span>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+            <!-- DC Property Management Description -->
+            <p>
+                At DC Property Management, we pride ourselves...
+                ...
+            </p>
+            
+            <!-- Contact Form Fields -->
+            ...
+        </form>
+        <br>
+        <p><b>"DC Property Management</b> specializes in expertly overseeing properties across Washington, Maryland, and Virginia. Leveraging years of industry experience, we ensure optimal tenant satisfaction and maximized returns for property owners. Your property is our priority."
+
+            Feel free to adjust this to better suit your needs or company specifics!</p>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a range of property management services including tenant placement, maintenance, rent collection, and more.</p>
+        </section>
+        <section id="properties">
+            <h2>Types of Properties We Manage</h2>
+       <img src="">
+    </span>
+
+    <ul>
+        <li><a href="single_family_homes.html">Single Family Homes</a></li>
+        <li><a href="apartments.html">Apartment</a></li>
+        <li><a href="townhouses.html">Townhouses</a></li>
+        <li><a href="multi_family_residences.html">Multi-Family Residences</a></li>
+    </ul>
+    
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+    
+        <div class="team-member">
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2023/01/GettyImages-1447057883.jpg?w=1296" alt="Tom Hanks">
+            <h3>Tom Hanks</h3>
+            <p>CEO</p>
+            <p>Chief Executive Officer and Co-Founder at Property Management</p>
+        </div>
+    
+        <div class="team-member">
+            <img src="https://image.cnbcfm.com/api/v1/image/106299171-1576528973079mayemusk.jpg?v=1576529057" alt="Team Member's Name">
+            <h3>Maye Musk</h3>
+            <p>PROPERTY MANAGER</p>
+            <p>Assist tenants with maintenance requests and oversee the process of preparing properties for new tenants</p>
+        </div>
+        <div class="team-member">
+            <img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/04-10-2022-UNHCR-Angel-Merkel-02.jpg/image1170x530cropped.jpg" alt="Angela Merkel">
+            <h3>Angela Merkel</h3>
+            <p>OFFICE ADMINISTRATOR</p>
+            <p>Assist in the management of a portfolio of Class A commercial office buildings</p>
+        </div>
+        
+        <div class="team-member">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA5MjExMzY0M15BMl5BanBnXkFtZTgwNTMxOTg4MTI@._V1_.jpg" alt="Team Member 3's Name">
+            <h3>Brendan Fraser</h3>
+            <p>LEASING COORDINATOR</p>
+            <p>facilitate rental agreements for organisations.</p>
+        </div>
+        <!-- Add more team members as required -->
+    </section>
+       
+       
+        <footer>
+            <p>© 2023 by DC Property Management. All rights reserved.</p>
+        </footer>
+        
+       
+
+
+       
+
+</body>
+</html>
